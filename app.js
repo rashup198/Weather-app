@@ -28,10 +28,10 @@ async function fetchWeatherDetails(){
 
 
     try {
-        let city= "sehore";
+        let city= "bhopal";
     
 
-        const response= await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}`);
+        const response= await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`);
     
         const data = await response.json();
     
@@ -39,7 +39,7 @@ async function fetchWeatherDetails(){
     
         renderWeatherInfo(data);
     } catch (err) {
-        console.log(err);
+        console.log("Error found"+ err);
     }
 
 
@@ -60,4 +60,27 @@ function getLocation() {
 
     console.log(Latitude);
     console.log(Longitude);
+  }
+
+  function switchTab(ClickedTab){
+
+    apiErrorContainer.classList.remove("active");
+
+    if (ClickedTab !== currentTab) {
+      currentTab.classList.remove("current-tab");
+      currentTab = ClickedTab;
+      currentTab.classList.add("current-tab")
+    
+
+    if(!searchForm.classList.contains("active")){
+      userInfoContainer.classList.remove("active");
+      grantAccessContainer.classList.remove("active");
+      searchForm.classList.add("active");
+    }
+
+    else{
+      searchForm.classList.remove("active");
+      userInfoContainer.classList.remove("active");
+    }
+    }
   }
