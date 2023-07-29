@@ -14,10 +14,6 @@ Detailed Weather Information: In addition to the current temperature, the Weathe
 
 
 
-Searched City Temprature:
-
-![image](https://github.com/rashup198/Weather-app/assets/88549100/0ff6226a-82e2-4c8b-a3dd-389f5c94f319)
-
 Forecast: The Weather App extends its functionality beyond current weather conditions by including a forecast feature. Users can access a multi-day forecast that outlines anticipated weather patterns and temperatures over the coming days. This valuable information allows users to plan their schedules accordingly, ensuring they are prepared for any weather changes on the horizon.
 
 Responsive Design: With a responsive design approach, the Weather App ensures seamless user experiences across various devices and screen sizes. Whether accessed from a desktop computer, laptop, tablet, or smartphone, the app adapts its layout and components to provide optimal functionality and readability. This responsiveness guarantees that users can access weather data conveniently, regardless of the device they are using.
@@ -49,5 +45,9 @@ Search Your City Img:
 
 ![image](https://github.com/rashup198/Weather-app/assets/88549100/33206503-21fc-43de-8566-cc6b5cf44079)
 
+
+Searched City Temprature:
+
+![image](https://github.com/rashup198/Weather-app/assets/88549100/0ff6226a-82e2-4c8b-a3dd-389f5c94f319)
 
 
